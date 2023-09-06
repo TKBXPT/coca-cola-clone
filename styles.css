@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 5rem;
+}
+p{
+    font-size: 5rem;
+}
+a{
+    font-size: 1.5rem;
+}
+.header {
+    background-color: red; 
+    padding: 0;
+     
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center; 
+    margin: 0rem 3.5rem;  
+
+    }
+.navbar-izq{
+    display:flex;
+    justify-content: flex-start;
+    gap:2rem;
+    flex:1;
+}
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex:1
+}
+
+ .navbar-logo img {
+            max-width: 200px;
+            height: auto;
+        }
+ .navbar-der {
+            display: flex;
+            justify-content:flex-end;
+            gap:4rem;
+            font-weight: bold;
+            margin: 0 2rem;
+            flex:1
+        }
+.navbar-izq a{
+        text-decoration: none;
+        color:white;
+        font-weight: bold;
+        }
+.boton-Bolsa{
+    color: white;
+    font-size: 1.2 rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.boton-Sign{
+    color: red;
+    background-color: white;
+    border-radius: 20px;
+    padding: .4rem 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+.section-dos-columnas{
+    margin: 5rem 2rem;
+}
+.contenedor-dos-columnas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 0 auto;
+}
+.contenedor-columna{
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+
+}
+.contenedor-columna img{
+    max-width: 600px;
+    height: auto;
+
+}
+.contenedor-columna-texto{
+    margin: 5rem 6rem;
+    padding: 5rem 1rem;
+}
+.contenedor-columna-texto p{
+    padding:2rem 0rem;
+    text-align: justify;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.contenedor-llamada{
+    margin: 2rem 0rem;
+}
+
+.llamada-Sign{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: red;   
+    padding: .6rem 1.8rem;
+    border-radius:1.5rem;
+
+    
+    
+}
